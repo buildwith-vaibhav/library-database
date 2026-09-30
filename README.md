@@ -15,6 +15,7 @@ Perfect for learning file handling, CSV operations, and basic application logic.
 - **Exit** – Quit the application safely
 
 ### Business Rules
+
 | Setting          | Value          |
 |------------------|----------------|
 | Loan period      | 5 days         |
@@ -23,11 +24,40 @@ Perfect for learning file handling, CSV operations, and basic application logic.
 
 ## How to Run
 
-```bash
-python Library_Database.py
-```
+### Prerequisites
+- Python 3.6 or higher
+- A terminal / command prompt
+- Git (only if you want to clone the repository)
 
-No external packages required – uses only Python standard library.
+### Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/buildwith-vaibhav/library-database.git
+   cd library-database
+   ```
+
+2. **Verify Python is installed**
+   ```bash
+   python --version
+   # or
+   python3 --version
+   ```
+   You should see a version starting with `Python 3.x`.
+
+3. **Run the application**
+   ```bash
+   python Library_Database.py
+   # or (if python points to Python 2)
+   python3 Library_Database.py
+   ```
+
+4. Use the on-screen menu (options 1–6) to interact with the system.
+
+### Notes
+- No external packages or virtual environment is required.
+- The data file `library.csv` is created automatically on the first run.
+- The program uses only Python’s standard library (`os`, `csv`, `datetime`).
 
 ## Sample Screenshots
 
